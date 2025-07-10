@@ -61,8 +61,8 @@ def load_langgraph_agenticai_app():
                         st.session_state.chat_history.append((user_message, msg))
                     else:
                         with st.chat_message("assistant"):
-                            st.write("⚠️ Unexpected response format.")
-                        st.session_state.chat_history.append((user_message, "⚠️ Unexpected response format."))
+                            st.write("Unexpected response format.")
+                        st.session_state.chat_history.append((user_message, "Unexpected response format."))
 
         except Exception as e:
             st.error(f"Error: {e}")

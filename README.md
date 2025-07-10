@@ -1,7 +1,8 @@
 # Neura: An Agentic AI Personal Chatbot
 
 ## Overview
-LangGraph Agentic Chatbot is a stateful, interactive chatbot framework built with LangGraph and powered by Groq's high-speed LLM inference. It allows users to select different language models, initiate dynamic multi-turn conversations, and view real-time responses within a Streamlit interface.
+
+Neura is a stateful, interactive chatbot framework built with LangGraph and powered by Groq's high-speed LLM inference. It allows users to select different language models, initiate dynamic multi-turn conversations, and view real-time responses within a Streamlit interface.
 
 ## Features
 - Model selection from Groq-hosted LLMs: `gemma2-9b-it`, `llama3-70b-8192`, `llama3-8b-8192`
