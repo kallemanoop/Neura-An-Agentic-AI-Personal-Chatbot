@@ -5,7 +5,7 @@ from src.langgraphagenticai.graph.graph_builder import GraphBuilder
 from src.langgraphagenticai.ui.streamlitui.display_result import DisplayResult
 
 def load_langgraph_agenticai_app():
-    st.set_page_config(page_title="LangGraph Agentic Chatbot", layout="wide")
+    st.set_page_config(page_title="Neura😚: An Agentic AI Personal Chatbot", layout="wide")
 
     
     ui = LoadStreamlitUI()
@@ -66,3 +66,13 @@ def load_langgraph_agenticai_app():
 
         except Exception as e:
             st.error(f"Error: {e}")
+
+st.markdown(
+    """
+    <hr style="margin-top: 3rem; margin-bottom: 1rem;">
+    <div style='text-align: center; color: gray; font-size: 0.85rem;'>
+        © 2025 Anoop Reddy Kallem. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
